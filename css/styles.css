@@ -5,6 +5,7 @@
   --white: #ffffff;
   --light-bg: #f4f4fd;
   --active: #404bbf;
+  --border: #e7e9fc;
 }
 
 body {
@@ -66,7 +67,7 @@ address a:hover {
   color: var(--active);
 }
 
-/* Page Content */
+/* Main Page */
 /* Title Section */
 .hero {
   background-color: var(--dark);
@@ -152,6 +153,52 @@ address a:hover {
 }
 
 .team p {
+  color: var(--normal);
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio Page */
+/* Filter Section */
+
+.filter ul {
+  list-style: none;
+}
+
+.filter button {
+  background-color: var(--light-bg);
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  color: var(--brand);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.filter button:active {
+  background-color: var(--active);
+  color: var(--white);
+}
+
+/* Filter Result Section */
+.result ul {
+  list-style: none;
+}
+
+.result li {
+  background-color: var(--white);
+  border: 1px solid var(--border);
+}
+.result h3 {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.result p {
   color: var(--normal);
   line-height: 24px;
   letter-spacing: 0.32px;
