@@ -9,7 +9,14 @@
 }
 
 body {
+  color: var(--normal);
+  background-color: var(--white);
   font-family: roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 /* Topline */
@@ -17,6 +24,7 @@ body {
   color: var(--dark);
   font-family: raleway;
   font-size: 18px;
+  font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-decoration: none;
@@ -27,6 +35,7 @@ body {
   color: var(--brand);
   font-family: raleway;
   font-size: 18px;
+  font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -37,11 +46,9 @@ body {
 }
 
 .nav-pages a {
-  text-decoration: none;
   color: var(--dark);
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
 .nav-pages a:focus,
@@ -55,10 +62,7 @@ address ul {
 
 address a {
   text-decoration: none;
-  color: var(--normal);
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 address a:focus,
@@ -77,21 +81,23 @@ address a:hover {
   color: var(--white);
   text-align: center;
   font-size: 56px;
+  font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
 }
 
 .hero button {
-  background: var(--brand);
   color: var(--white);
-  line-height: 24px;
+  background: var(--brand);
+  font-weight: 500;
   letter-spacing: 0.64px;
-  cursor: pointer;
+  border-radius: 4px;
 }
 
 .hero button:hover,
 .hero button:active {
   background-color: var(--active);
+  cursor: pointer;
 }
 
 /* Features Section */
@@ -102,15 +108,8 @@ address a:hover {
 .feature h3 {
   color: var(--dark);
   font-size: 20px;
-  line-height: 24px;
+  font-weight: 500;
   letter-spacing: 0.4px;
-}
-
-.feature p {
-  color: var(--normal);
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 /* Actions Section */
@@ -118,6 +117,7 @@ address a:hover {
   color: var(--dark);
   text-align: center;
   font-size: 36px;
+  font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
@@ -136,6 +136,7 @@ address a:hover {
   color: var(--dark);
   text-align: center;
   font-size: 36px;
+  font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
@@ -148,30 +149,23 @@ address a:hover {
 .team h3 {
   color: var(--dark);
   font-size: 20px;
-  line-height: 24px;
+  font-weight: 500;
   letter-spacing: 0.4px;
-}
-
-.team p {
-  color: var(--normal);
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 /* Portfolio Page */
 /* Filter Section */
 
-.filter ul {
+.filter .filter-buttons {
   list-style: none;
 }
 
 .filter button {
   background-color: var(--light-bg);
-  border-radius: 4px;
   border: 1px solid var(--border);
+  border-radius: 4px;
   color: var(--brand);
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
@@ -181,27 +175,19 @@ address a:hover {
   color: var(--white);
 }
 
-/* Filter Result Section */
-.result ul {
+.filter .filter-results {
   list-style: none;
 }
 
-.result li {
+.filter .filter-results li {
   background-color: var(--white);
   border: 1px solid var(--border);
 }
-.result h3 {
+.filter h3 {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.4px;
-}
-
-.result p {
-  color: var(--normal);
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 /* Footer */
@@ -214,6 +200,7 @@ footer {
   color: var(--light-bg);
   font-family: Raleway;
   font-size: 18px;
+  font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
