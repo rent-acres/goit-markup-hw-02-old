@@ -63,6 +63,7 @@ address ul {
 address a {
   text-decoration: none;
   font-style: normal;
+  color: var(--normal);
 }
 
 address a:focus,
