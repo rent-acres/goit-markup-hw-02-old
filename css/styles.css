@@ -210,3 +210,7 @@ body {
   letter-spacing: 0.32px;
   width: 264px;
 }
+
+.footer h3 {
+  color: aqua;
+}
